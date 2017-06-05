@@ -45,6 +45,9 @@
       <schema key="http://docs.rackspace.com/event/nova" version="1">
          <attributes>product/@bandwidthIn,product/@bandwidthOut,product/@isManaged</attributes>
       </schema>
+      <schema key="http://docs.rackspace.com/event/nova" version="2">
+         <attributes>product/@additionalIpv4,product/@additionalIpv6,product/@bandwidthIn,product/@bandwidthOut,product/@isManaged</attributes>
+      </schema>
       <schema key="http://docs.rackspace.com/event/servers" version="1">
          <attributes>product/@extraPrivateIPs,product/@extraPublicIPs,product/@flavor,product/@isMSSQL,product/@isMSSQLWeb,product/@isManaged,product/@isRedHat,product/@isSELinux,product/@isWindows</attributes>
       </schema>
