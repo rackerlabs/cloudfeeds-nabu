@@ -75,6 +75,12 @@
       <schema key="http://docs.rackspace.com/event/support/account/teams" version="1">
          <attributes>team/@previousTeamNumber,team/@suppressNotifications,team/@teamNumber</attributes>
       </schema>
+      <schema key="http://docs.rackspace.com/event/ticketing/queue/view" version="1">
+         <attributes>product/@number</attributes>
+      </schema>
+      <schema key="http://docs.rackspace.com/event/ticketing/ticket" version="1">
+         <attributes>queue/@id</attributes>
+      </schema>
       <schema key="http://docs.rackspace.com/usage/bigdata" version="1">
          <attributes>product/@aggregatedClusterDuration,product/@bandwidthIn,product/@bandwidthOut,product/@numberServersInCluster</attributes>
       </schema>
