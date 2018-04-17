@@ -24,6 +24,18 @@
       <schema key="http://docs.rackspace.com/event/domain" version="1">
          <attributes>product/@isAutoRenew,product/@purchaseTenure</attributes>
       </schema>
+      <schema key="http://docs.rackspace.com/event/dpservicenow/call" version="1">
+         <attributes>product/@publicCorrespondenceAdded</attributes>
+      </schema>
+      <schema key="http://docs.rackspace.com/event/dpservicenow/change" version="1">
+         <attributes>product/@clientVisible,product/@publicCorrespondenceAdded,product/@workNoteAdded</attributes>
+      </schema>
+      <schema key="http://docs.rackspace.com/event/dpservicenow/incident" version="1">
+         <attributes>product/@clientVisible,product/@publicCorrespondenceAdded,product/@workNoteAdded</attributes>
+      </schema>
+      <schema key="http://docs.rackspace.com/event/dpservicenow/task" version="1">
+         <attributes>product/@clientVisible,product/@publicCorrespondenceAdded,product/@workNoteAdded</attributes>
+      </schema>
       <schema key="http://docs.rackspace.com/event/identity/user" version="1">
          <attributes>product/@migrated,product/@multiFactorEnabled</attributes>
       </schema>
@@ -77,6 +89,9 @@
       </schema>
       <schema key="http://docs.rackspace.com/event/ticketing/ticket" version="1">
          <attributes>queue/@id</attributes>
+      </schema>
+      <schema key="http://docs.rackspace.com/event/tricore/ticket" version="1">
+         <attributes>nextAction/@id,notes/@isPublic</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/usage/bigdata" version="1">
          <attributes>product/@aggregatedClusterDuration,product/@bandwidthIn,product/@bandwidthOut,product/@numberServersInCluster</attributes>
