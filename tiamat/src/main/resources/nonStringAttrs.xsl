@@ -87,6 +87,12 @@
       <schema key="http://docs.rackspace.com/event/support/account/teams" version="1">
          <attributes>team/@previousTeamNumber,team/@suppressNotifications,team/@teamNumber</attributes>
       </schema>
+      <schema key="http://docs.rackspace.com/event/support/team" version="1">
+         <attributes>product/@teamNumber</attributes>
+      </schema>
+      <schema key="http://docs.rackspace.com/event/support/team/roles" version="1">
+         <attributes>role/@roleId,role/@suppressNotifications,product/@teamNumber</attributes>
+      </schema>
       <schema key="http://docs.rackspace.com/event/tricore/ticket" version="1">
          <attributes>nextAction/@id,notes/@isPublic</attributes>
       </schema>
