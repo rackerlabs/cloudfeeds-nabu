@@ -42,6 +42,9 @@
       <schema key="http://docs.rackspace.com/event/identity/user" version="2">
          <attributes>product/@migrated,product/@multiFactorEnabled</attributes>
       </schema>
+      <schema key="http://docs.rackspace.com/event/identity/user" version="3">
+         <attributes>product/@migrated,product/@multiFactorEnabled</attributes>
+      </schema>
       <schema key="http://docs.rackspace.com/event/lbaas/health-monitor" version="1">
          <attributes>product/@attemptsBeforeDeactivation,product/@delay,product/@timeout</attributes>
       </schema>
