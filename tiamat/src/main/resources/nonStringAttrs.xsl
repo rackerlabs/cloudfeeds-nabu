@@ -36,6 +36,9 @@
       <schema key="http://docs.rackspace.com/event/dpservicenow/task" version="1">
          <attributes>product/@clientVisible,product/@publicCorrespondenceAdded,product/@workNoteAdded</attributes>
       </schema>
+      <schema key="http://docs.rackspace.com/event/dpservicenow/user" version="1">
+         <attributes>product/@active</attributes>
+      </schema>
       <schema key="http://docs.rackspace.com/event/identity/user" version="1">
          <attributes>product/@migrated,product/@multiFactorEnabled</attributes>
       </schema>
