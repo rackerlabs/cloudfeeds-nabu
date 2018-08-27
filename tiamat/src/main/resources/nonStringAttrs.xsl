@@ -100,7 +100,7 @@
          <attributes>role/@roleId,role/@suppressNotifications,product/@teamNumber</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/event/tricore/ticket" version="1">
-         <attributes>nextAction/@id,notes/@isPublic</attributes>
+         <attributes>requestor/@id,submitter/@id,owner/@id,nextAction/@id,notes/@isPublic</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/usage/bigdata" version="1">
          <attributes>product/@aggregatedClusterDuration,product/@bandwidthIn,product/@bandwidthOut,product/@numberServersInCluster</attributes>
