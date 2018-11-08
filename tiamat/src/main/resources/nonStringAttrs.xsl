@@ -21,6 +21,9 @@
               version="1">
          <attributes>product/@primary</attributes>
       </schema>
+      <schema key="http://docs.rackspace.com/event/dcx/vlan" version="1">
+         <attributes>product/@vlanNumber</attributes>
+      </schema>
       <schema key="http://docs.rackspace.com/event/domain" version="1">
          <attributes>product/@isAutoRenew,product/@purchaseTenure</attributes>
       </schema>
