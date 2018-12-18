@@ -17,6 +17,12 @@
       <schema key="http://docs.rackspace.com/event/billing/consolidation" version="1">
          <attributes>product/@invoicedInExternalBillingSystem</attributes>
       </schema>
+      <schema key="http://docs.rackspace.com/event/cms/account" version="1">
+         <attributes>product/@accountId,product/@accountNumber,accountAddresses/@zipcode</attributes>
+      </schema>
+      <schema key="http://docs.rackspace.com/event/cms/contact" version="1">
+         <attributes>product/@doNotCall,product/@doNotEmail,product/@doNotFax,product/@doNotMail,product/@doNotSurvey,product/@legacyNumber,address/@primary,email/@primary,PhoneNumber/@primary,PhoneNumber/@smsVerify,address/@zipcode</attributes>
+      </schema>
       <schema key="http://docs.rackspace.com/event/dcx/ip-address-association"
               version="1">
          <attributes>product/@primary</attributes>
