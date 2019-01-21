@@ -21,7 +21,7 @@
          <attributes>accountAddresses/@zipcode</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/event/cms/contact" version="1">
-         <attributes>product/@doNotCall,product/@doNotEmail,product/@doNotFax,product/@doNotMail,product/@doNotSurvey,product/@legacyNumber,physicalAddress/@primaryAddress,emailAddress/@primaryEmail,PhoneNumber/@primaryPhone,PhoneNumber/@smsVerify</attributes>
+         <attributes>product/@doNotCall,product/@doNotEmail,product/@doNotFax,product/@doNotMail,product/@doNotSurvey,product/@legacyNumber,physicalAddress/@primaryAddress,emailAddress/@primaryEmail,phoneNumber/@primaryPhone,phoneNumber/@smsVerify</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/event/dcx/ip-address-association"
               version="1">
