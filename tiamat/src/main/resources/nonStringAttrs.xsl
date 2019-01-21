@@ -18,10 +18,10 @@
          <attributes>product/@invoicedInExternalBillingSystem</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/event/cms/account" version="1">
-         <attributes>product/@accountId,product/@accountNumber,accountAddresses/@zipcode</attributes>
+         <attributes>accountAddresses/@zipcode</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/event/cms/contact" version="1">
-         <attributes>product/@doNotCall,product/@doNotEmail,product/@doNotFax,product/@doNotMail,product/@doNotSurvey,product/@legacyNumber,address/@primary,email/@primary,PhoneNumber/@primary,PhoneNumber/@smsVerify,address/@zipcode</attributes>
+         <attributes>product/@doNotCall,product/@doNotEmail,product/@doNotFax,product/@doNotMail,product/@doNotSurvey,product/@legacyNumber,physicalAddress/@primaryAddress,emailAddress/@primaryEmail,PhoneNumber/@primaryPhone,PhoneNumber/@smsVerify</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/event/dcx/ip-address-association"
               version="1">
