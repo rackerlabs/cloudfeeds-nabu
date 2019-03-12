@@ -18,7 +18,7 @@
          <attributes>product/@invoicedInExternalBillingSystem</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/event/cms/contact" version="1">
-         <attributes>product/@doNotCall,product/@doNotEmail,product/@doNotFax,product/@doNotMail,product/@doNotSurvey,product/@legacyNumber,physicalAddress/@primaryAddress,emailAddress/@primaryEmail,phoneNumber/@primaryPhone,phoneNumber/@smsVerify</attributes>
+         <attributes>product/@doNotCall,product/@doNotEmail,product/@doNotFax,product/@doNotMail,product/@doNotSurvey,physicalAddress/@primaryAddress,emailAddress/@primaryEmail,phoneNumber/@primaryPhone,phoneNumber/@smsVerify</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/event/cms/contactdelta" version="1">
          <attributes>physicalAddress/@primaryAddress,emailAddress/@primaryEmail,phoneNumber/@primaryPhone</attributes>
