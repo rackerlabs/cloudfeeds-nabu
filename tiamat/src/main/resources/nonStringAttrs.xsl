@@ -185,6 +185,9 @@
       <schema key="http://docs.rackspace.com/usage/glance" version="1">
          <attributes>product/@storage</attributes>
       </schema>
+      <schema key="http://docs.rackspace.com/usage/glance" version="2">
+         <attributes>product/@storage</attributes>
+      </schema>
       <schema key="http://docs.rackspace.com/usage/lbaas" version="1">
          <attributes>product/@avgConcurrentConnections,product/@avgConcurrentConnectionsSsl,product/@avgConcurrentConnectionsSum,product/@bandWidthIn,product/@bandWidthInSsl,product/@bandWidthOut,product/@bandWidthOutSsl,product/@hasSSLConnection,product/@numPolls,product/@numVips,product/@publicBandWidthInSum,product/@publicBandWidthOutSum</attributes>
       </schema>
