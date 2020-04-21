@@ -39,7 +39,19 @@
       <schema key="http://docs.rackspace.com/event/dpservicenow/change" version="1">
          <attributes>product/@clientVisible,product/@publicCorrespondenceAdded,product/@workNoteAdded</attributes>
       </schema>
+      <schema key="http://docs.rackspace.com/event/dpservicenow/changetask"
+              version="1">
+         <attributes>product/@clientVisible,product/@publicCorrespondenceAdded,product/@workNoteAdded</attributes>
+      </schema>
       <schema key="http://docs.rackspace.com/event/dpservicenow/incident" version="1">
+         <attributes>product/@clientVisible,product/@publicCorrespondenceAdded,product/@workNoteAdded</attributes>
+      </schema>
+      <schema key="http://docs.rackspace.com/event/dpservicenow/projecttask"
+              version="1">
+         <attributes>product/@clientVisible,product/@publicCorrespondenceAdded,product/@workNoteAdded</attributes>
+      </schema>
+      <schema key="http://docs.rackspace.com/event/dpservicenow/storagerequest"
+              version="1">
          <attributes>product/@clientVisible,product/@publicCorrespondenceAdded,product/@workNoteAdded</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/event/dpservicenow/task" version="1">
