@@ -57,9 +57,6 @@
       <schema key="http://docs.rackspace.com/event/dpservicenow/task" version="1">
          <attributes>product/@clientVisible,product/@publicCorrespondenceAdded,product/@workNoteAdded</attributes>
       </schema>
-      <schema key="http://docs.rackspace.com/event/internalsnow/tickets" version="1">
-         <attributes>product/@workNoteAdded</attributes>
-      </schema>
       <schema key="http://docs.rackspace.com/event/dpservicenow/user" version="1">
          <attributes>product/@active</attributes>
       </schema>
@@ -71,6 +68,9 @@
       </schema>
       <schema key="http://docs.rackspace.com/event/identity/user" version="3">
          <attributes>product/@migrated,product/@multiFactorEnabled</attributes>
+      </schema>
+      <schema key="http://docs.rackspace.com/event/internalsnow/tickets" version="1">
+         <attributes>product/@workNoteAdded</attributes>
       </schema>
       <schema key="http://docs.rackspace.com/event/lbaas/health-monitor" version="1">
          <attributes>product/@attemptsBeforeDeactivation,product/@delay,product/@timeout</attributes>
